@@ -1,0 +1,11 @@
+{
+  "technique": "Q1 - Dynamic Quantization",
+  "accuracy": 0.9738339021615472,
+  "f1_score": 0.9740161839165711,
+  "model_size_mb": 8.75208568572998,
+  "baseline_size_mb": 8.72321605682373,
+  "compression_ratio": 0.9967014001070258,
+  "avg_inference_ms": 24.35441493988037,
+  "std_inference_ms": 6.2813125284215285,
+  "ram_usage_mb": 476.5703125
+}
