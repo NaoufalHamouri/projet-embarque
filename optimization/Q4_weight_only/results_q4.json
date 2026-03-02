@@ -1,0 +1,11 @@
+{
+  "technique": "Q4 - Weight-Only Int8 (manual)",
+  "accuracy": 0.9715585893060296,
+  "f1_score": 0.9718246716215508,
+  "model_size_mb": 8.72260570526123,
+  "baseline_size_mb": 8.72321605682373,
+  "compression_ratio": 1.00006997353579,
+  "avg_inference_ms": 23.24613094329834,
+  "std_inference_ms": 9.663116576499378,
+  "ram_usage_mb": 482.89453125
+}

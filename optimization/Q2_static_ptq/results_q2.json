@@ -1,0 +1,11 @@
+{
+  "technique": "Q2 - Static PTQ (torchao Int8)",
+  "accuracy": 0.9738339021615472,
+  "f1_score": 0.9740161839165711,
+  "model_size_mb": 8.716622352600098,
+  "baseline_size_mb": 8.72321605682373,
+  "compression_ratio": 1.0007564517489582,
+  "avg_inference_ms": 22.002172470092773,
+  "std_inference_ms": 5.77950792537569,
+  "ram_usage_mb": 469.9140625
+}

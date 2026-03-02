@@ -1,0 +1,11 @@
+{
+  "technique": "Q3 - QAT (Int8DynActInt4Weight)",
+  "accuracy": 0.9772468714448237,
+  "f1_score": 0.977419127929884,
+  "model_size_mb": 8.715889930725098,
+  "baseline_size_mb": 8.72321605682373,
+  "compression_ratio": 1.0008405482580507,
+  "avg_inference_ms": 20.312364101409912,
+  "std_inference_ms": 2.2853302256716104,
+  "ram_usage_mb": 3204.921875
+}

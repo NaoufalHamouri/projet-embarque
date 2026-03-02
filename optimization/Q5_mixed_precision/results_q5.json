@@ -1,0 +1,11 @@
+{
+  "technique": "Q5 - Mixed Precision (sensitivity-based)",
+  "accuracy": 0.9715585893060296,
+  "f1_score": 0.9718246716215508,
+  "model_size_mb": 8.72260570526123,
+  "baseline_size_mb": 8.72321605682373,
+  "compression_ratio": 1.00006997353579,
+  "avg_inference_ms": 23.92228364944458,
+  "std_inference_ms": 10.335671750676406,
+  "ram_usage_mb": 541.5625
+}
