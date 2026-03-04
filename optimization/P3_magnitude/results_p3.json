@@ -1,0 +1,11 @@
+{
+  "technique": "P3 - Magnitude Pruning (3x10% iterative)",
+  "accuracy": 0.9783845278725825,
+  "f1_score": 0.9783412119323531,
+  "model_size_mb": 8.72260570526123,
+  "baseline_size_mb": 8.72321605682373,
+  "compression_ratio": 1.00006997353579,
+  "avg_inference_ms": 18.183283805847168,
+  "std_inference_ms": 1.8611783394083463,
+  "ram_usage_mb": 458.42578125
+}

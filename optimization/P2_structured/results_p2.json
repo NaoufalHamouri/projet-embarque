@@ -1,0 +1,11 @@
+{
+  "technique": "P2 - Structured Pruning (30%)",
+  "accuracy": 0.7292377701934016,
+  "f1_score": 0.6150544877552242,
+  "model_size_mb": 8.72260570526123,
+  "baseline_size_mb": 8.72321605682373,
+  "compression_ratio": 1.00006997353579,
+  "avg_inference_ms": 19.072372913360596,
+  "std_inference_ms": 1.989850041790954,
+  "ram_usage_mb": 501.06640625
+}
