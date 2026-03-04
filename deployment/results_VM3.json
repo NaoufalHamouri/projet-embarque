@@ -1,0 +1,70 @@
+{
+  "vm_id": "VM3",
+  "vm_ram_mb": 2048,
+  "results": {
+    "Q1": {
+      "accuracy": 0.9738,
+      "f1_score": 0.974,
+      "avg_inference_ms": 109.39,
+      "std_inference_ms": 74.86,
+      "ram_mb": 470.2,
+      "cpu_pct": 0.3
+    },
+    "Q2": {
+      "accuracy": 0.9738,
+      "f1_score": 0.974,
+      "avg_inference_ms": 37.15,
+      "std_inference_ms": 25.07,
+      "ram_mb": 488.9,
+      "cpu_pct": 0.1
+    },
+    "Q3": {
+      "accuracy": 0.9738,
+      "f1_score": 0.974,
+      "avg_inference_ms": 96.62,
+      "std_inference_ms": 49.43,
+      "ram_mb": 489.8,
+      "cpu_pct": 0.3
+    },
+    "Q4": {
+      "accuracy": 0.9716,
+      "f1_score": 0.9718,
+      "avg_inference_ms": 45.53,
+      "std_inference_ms": 27.03,
+      "ram_mb": 489.9,
+      "cpu_pct": 0.0
+    },
+    "Q5": {
+      "accuracy": 0.9716,
+      "f1_score": 0.9718,
+      "avg_inference_ms": 33.87,
+      "std_inference_ms": 24.18,
+      "ram_mb": 490.0,
+      "cpu_pct": 0.4
+    },
+    "P1": {
+      "accuracy": 0.9784,
+      "f1_score": 0.9783,
+      "avg_inference_ms": 57.13,
+      "std_inference_ms": 28.54,
+      "ram_mb": 499.8,
+      "cpu_pct": 0.2
+    },
+    "P2": {
+      "accuracy": 0.7292,
+      "f1_score": 0.6151,
+      "avg_inference_ms": 40.02,
+      "std_inference_ms": 24.91,
+      "ram_mb": 491.5,
+      "cpu_pct": 1.7
+    },
+    "P3": {
+      "accuracy": 0.9784,
+      "f1_score": 0.9783,
+      "avg_inference_ms": 63.68,
+      "std_inference_ms": 27.48,
+      "ram_mb": 491.8,
+      "cpu_pct": 0.1
+    }
+  }
+}

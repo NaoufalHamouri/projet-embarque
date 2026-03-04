@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  vm1:
+    image: python:3.12-slim
+    container_name: vm1_iot_sensor
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 500m
+    volumes:
+      - ../:/app
+    working_dir: /app
+    command: sleep infinity
+    environment:
+      - VM_ID=VM1
+      - VM_RAM=500
+      - VM_CPUS=1
+
+  vm2:
+    image: python:3.12-slim
+    container_name: vm2_iot_gateway
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 1g
+    volumes:
+      - ../:/app
+    working_dir: /app
+    command: sleep infinity
+    environment:
+      - VM_ID=VM2
+      - VM_RAM=1024
+      - VM_CPUS=2
+
+  vm3:
+    image: python:3.12-slim
+    container_name: vm3_edge_server
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2g
+    volumes:
+      - ../:/app
+    working_dir: /app
+    command: sleep infinity
+    environment:
+      - VM_ID=VM3
+      - VM_RAM=2048
+      - VM_CPUS=2
