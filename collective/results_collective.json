@@ -1,0 +1,682 @@
+{
+  "collective_accuracy": 0.96,
+  "individual_accuracy": {
+    "VM1": 0.96,
+    "VM2": 0.96,
+    "VM3": 1.0
+  },
+  "best_individual_accuracy": 1.0,
+  "collective_gain_pct": -4.0000000000000036,
+  "consensus_rate": 0.96,
+  "confidence_retries": 2,
+  "n_samples": 50,
+  "vm_config": {
+    "VM1": {
+      "technique": "P3",
+      "ram_limit": 500,
+      "historical_accuracy": 0.9784
+    },
+    "VM2": {
+      "technique": "P3",
+      "ram_limit": 1024,
+      "historical_accuracy": 0.9784
+    },
+    "VM3": {
+      "technique": "Q2",
+      "ram_limit": 2048,
+      "historical_accuracy": 0.9738
+    }
+  },
+  "sample_results": [
+    {
+      "sample": 0,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 1,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 2,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 3,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 4,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 5,
+      "true_label": "NORMAL",
+      "collective_pred": "PNEUMONIA",
+      "collective_conf": 0.6954,
+      "correct": false,
+      "consensus": false,
+      "vm_predictions": {
+        "VM1": "PNEUMONIA",
+        "VM2": "PNEUMONIA",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 6,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 7,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 8,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 9,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 10,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 11,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 12,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 13,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 14,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 15,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 16,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 17,
+      "true_label": "NORMAL",
+      "collective_pred": "PNEUMONIA",
+      "collective_conf": 0.6649,
+      "correct": false,
+      "consensus": false,
+      "vm_predictions": {
+        "VM1": "PNEUMONIA",
+        "VM2": "PNEUMONIA",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 18,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 19,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 20,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 21,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 22,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 23,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 24,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 25,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 26,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 27,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 28,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 29,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 30,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 31,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 32,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 33,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 34,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 35,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 36,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 37,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 38,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 39,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 40,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 41,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 42,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 43,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 44,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 45,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 46,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 47,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 48,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    },
+    {
+      "sample": 49,
+      "true_label": "NORMAL",
+      "collective_pred": "NORMAL",
+      "collective_conf": 1.0,
+      "correct": true,
+      "consensus": true,
+      "vm_predictions": {
+        "VM1": "NORMAL",
+        "VM2": "NORMAL",
+        "VM3": "NORMAL"
+      }
+    }
+  ]
+}
