@@ -1,0 +1,46 @@
+{
+  "VM1": {
+    "best_technique": "P3",
+    "scores": {
+      "Q1": 0.1963,
+      "Q2": 0.3314,
+      "Q3": 0.8768,
+      "Q4": 0.7423,
+      "Q5": 0.7012,
+      "P1": 0.6809,
+      "P2": 0.6342,
+      "P3": 0.8962
+    }
+  },
+  "VM2": {
+    "best_technique": "P3",
+    "scores": {
+      "Q1": 0.5121,
+      "Q2": 0.871,
+      "Q3": 0.7385,
+      "Q4": 0.5948,
+      "Q5": 0.9367,
+      "P1": 0.8681,
+      "P2": 0.4649,
+      "P3": 1.0
+    }
+  },
+  "VM3": {
+    "best_technique": "Q2",
+    "scores": {
+      "Q1": 0.7389,
+      "Q2": 0.8833,
+      "Q3": 0.6819,
+      "Q4": 0.8452,
+      "Q5": 0.8833,
+      "P1": 0.773,
+      "P2": 0.2717,
+      "P3": 0.7919
+    }
+  },
+  "justifications": {
+    "VM1": "VM1 has only 500MB RAM and 1 CPU core, making resource efficiency critical.\nThe scoring heavily weights RAM (0.4) and CPU usage (0.4) with only 0.2 for accuracy.\nP3 achieves the best balance of low RAM consumption and minimal CPU usage,\nmaking it the most viable technique for this severely constrained IoT sensor device.",
+    "VM2": "VM2 represents a mid-tier IoT gateway with 1GB RAM and 2 CPU cores.\nThe balanced scoring (RAM 0.3, Speed 0.3, Accuracy 0.4) reflects its role as\nan intermediate node that must maintain reasonable accuracy while processing\nrequests efficiently. P3 provides the best overall balance for this profile.",
+    "VM3": "VM3 is the most capable device (2GB RAM, 2 CPUs) acting as an edge server.\nAccuracy is the top priority (0.6 weight) as this device makes final diagnostic decisions.\nSpeed (0.25) and RAM (0.15) are secondary concerns. Q2 delivers the highest\naccuracy with acceptable speed, making it ideal for this edge server role."
+  }
+}
